@@ -87,7 +87,7 @@ header {
     /* border: 1px solid black; */
     width: 1200px;
     position: absolute;
-    top: 780px;
+    top: 650px;
     left: 360px;
     z-index: 2;
 }
@@ -130,12 +130,14 @@ header {
 }
 
 .side-text1 {
+    color: #b3c3ec;
     position: absolute;
     top: 0;
     left: 0;
 }
 
 .side-text2 {
+    color: #b3c3ec;
     text-align: right;
     position: absolute;
     top: 0;
@@ -143,6 +145,7 @@ header {
 }
 
 .side-text3 {
+    color: #b3c3ec;
     position: absolute;
     top: 0;
     left: 0px;
@@ -150,6 +153,7 @@ header {
 
 
 .side-text4 {
+    color: #b3c3ec;
     text-align: right;
     position: absolute;
     top: 0;
@@ -215,12 +219,12 @@ header {
 
 
 .run-title div span {
-    -webkit-text-stroke: 2px #F2CE12;
+    -webkit-text-stroke: 2px #b3c3ec;;
     color: transparent;
 }
 
 .run-title-left div span {
-    -webkit-text-stroke: 2px #F2CE12;
+    -webkit-text-stroke: 2px #b3c3ec;;
     color: transparent;
 }
 

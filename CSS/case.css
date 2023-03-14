@@ -11,6 +11,7 @@ p {
 .case-container {
     width: 1200px;
     margin: 0 auto;
+    margin-top: 15%;
 }
 
 .title {
