@@ -32,7 +32,7 @@ $(document).mousemove(function (e) {
 // ===============================================
 
 $(function () {
-    $('.btn-6')
+    $('.btn')
         .on('mouseenter', function (e) {
             var parentOffset = $(this).offset(),
                 relX = e.pageX - parentOffset.left,

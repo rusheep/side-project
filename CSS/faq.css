@@ -17,7 +17,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin-top: 5%;
     margin-bottom: 5%;
     padding: 5%;
@@ -37,6 +37,11 @@
     top: 0;
 }
 
+.question p {
+    width: 80%;
+    text-align: left;
+}
+
 .answer {
     border-radius: 15px;
     border: 1px solid blue;
@@ -49,6 +54,6 @@
 
 .answer p {
     width: 600px;
-    text-align: center;
+    text-align: left;
 }
 

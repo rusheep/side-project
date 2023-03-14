@@ -1,6 +1,7 @@
 
 h3 {
     color: white;
+    font-weight: 900;
 }
 
 p {
@@ -80,18 +81,7 @@ p {
 }
 
 .case-btn {
-    background: #F2CE12;
-    border-radius: 15px;
-    text-align: center;
-    width: 50%;
-    margin-bottom: 10%;
-}
-
-.case-btn a{
-    display: block;
-    padding: 10px;
-    text-decoration: none;
-    color: #333;
+    width: 150px;
 }
 
 .box {

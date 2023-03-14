@@ -64,15 +64,15 @@ header {
 }
 
 .about-btn li{
-    width: 150px;
+    width: 180px;
     margin: 5% 0;
 }
 
-.about-btn li a {
+/* .about-btn li a {
     color: #333;
     display: block;
     background: #F2CE12;
     border-radius: 15px;
     text-align: center;
     padding: 15px 15px;
-}
+} */
