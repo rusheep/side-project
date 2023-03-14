@@ -1,0 +1,103 @@
+
+h3 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+.case-container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.case-card {
+    width: 100%;
+    /* background-color: #999; */
+    /* border-bottom: 1px solid #333; */
+    padding-bottom: 5%;
+    display: flex;
+    /* margin-bottom: 5%; */
+    /* border-radius: 15px; */
+    /* justify-content: space-around; */
+}
+
+.case-card img {
+    width: 400px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.case-card-content {
+    /* margin: 0 auto; */
+    padding: 5%;
+    width: 30%;
+}
+
+.card-item1 {
+    width: 100%;
+    background-image: url(../img/case_img/人物.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.card-item2 {
+    width: 100%;
+    background-image: url(../img/case_img/背景.jpg);
+    background-position: center 960px;
+    background-size: cover;
+}
+
+.card-item3 {
+    width: 100%;
+    background-image: url(../img/case_img/角色立繪.jpg);
+    background-position: center top;
+    background-size: cover;
+}
+
+.card-item4 {
+    width: 100%;
+    background-image: url(../img/case_img/頭貼.jpg);
+    background-position: center -170px;
+    background-size: cover;
+}
+
+
+.case-card-content h3 {
+    margin-bottom: 10%;
+}
+
+.case-card-content p {
+    font-size: 24px;
+    margin-bottom: 25%;
+}
+
+.case-btn {
+    background: #F2CE12;
+    border-radius: 15px;
+    text-align: center;
+    width: 50%;
+    margin-bottom: 10%;
+}
+
+.case-btn a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.box {
+    width: 100%;
+    background-image: url(../img/case_img/人物.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 500px;
+}

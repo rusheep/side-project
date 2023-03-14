@@ -1,0 +1,32 @@
+
+.project-container {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.title {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.pj-select-bar {
+    margin-bottom: 5%;
+}
+
+.pj-content {
+    width: 100%;
+    column-count: 4;
+    column-gap: 0;
+}
+
+.pj-item {
+    padding: 5px;
+}
+
+.pj-item img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}

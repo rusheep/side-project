@@ -1,0 +1,267 @@
+@keyframes AnimeGrade{
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+
+        background-position: 100% 50%;
+    }
+    100% {
+
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes animaterun {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes animaterun2 {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-200%);
+    }
+}
+
+@keyframes animaterunLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+@keyframes animaterunLeft2 {
+    0% {
+        transform: translateX(-200%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+
+/*------------------------- index start---------------------------------*/
+/*------------------------- header ---------------------------------*/
+
+header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner-wrap {
+    margin: 0 auto;
+    /* width: 100%; */
+    /* border: 1px solid blue; */
+    position: relative;
+    overflow: hidden;
+}
+
+.banner-wrap img {
+    display: block;
+}
+
+.bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.main {
+    position: relative;
+    z-index: 1;
+}
+
+/* -------------------------index-btn----------------------------------- */
+
+.index-btn-wrap {
+    /* border: 1px solid black; */
+    width: 1200px;
+    position: absolute;
+    top: 780px;
+    left: 360px;
+    z-index: 2;
+}
+
+.index-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.index-btn li {
+    border-radius: 15px;
+    margin: 5%;
+    height: 80px;
+    width: 200px;
+    flex-grow: 1;
+    text-align: center;
+
+}
+
+.index-btn li a {
+    border-radius: 15px;
+    line-height: 80px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    display: block;
+    background: #F2CE12;
+}
+
+.index-btn li a:hover {
+    background: linear-gradient(45deg, rgba(0,0,255,.9), rgba(255,255,0,.9), rgba(255,0,0,.9));
+    background-size: 600% 600%;
+    animation: AnimeGrade 10s ease infinite;
+    text-decoration: none;
+    letter-spacing: 0.28em;
+    box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.3);
+}
+
+/* -------------------------index-btn over----------------------------------- */
+
+/*------------------------- container ---------------------------------*/
+
+.index-container {
+    margin-top: 15%;
+    width: 100%;
+}
+
+.index-container-box {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 10%;
+    position: relative;
+    overflow: hidden;
+}
+
+.index-container-box img {
+    display: block;
+}
+
+.run-title {
+    width: 100%;
+    display: flex;
+}
+
+.run-title-left {
+    width: 100%;
+    display: flex;
+}
+
+.text1 {
+    position: absolute;
+    transform: rotate(90deg) translateY(-520px);
+    /* box-shadow: 0 5px 15px rgba(0,0,0,0.5); */
+}
+
+.text2 {
+    position: absolute;
+    transform: rotate(90deg) translateY(520px);
+    /* box-shadow: 0 5px 15px rgba(0,0,0,0.5); */
+}
+
+.run-title-text {
+    /* background-color: #fff; */
+    white-space: nowrap;
+    font-weight: 900;
+    text-transform: uppercase;
+    animation: animaterun 40s linear infinite;
+    animation-delay: -40s;
+}
+
+
+.run-title div:nth-child(2) {
+    animation: animaterun2 40s linear infinite;
+    animation-delay: -20s;
+}
+
+.run-title-text-left {
+    /* background-color: #fff; */
+    white-space: nowrap;
+    font-weight: 900;
+    text-transform: uppercase;
+    animation: animaterunLeft 40s linear infinite;
+    animation-delay: -40s;
+}
+
+.run-title-left div:nth-child(2) {
+    animation: animaterunLeft2 40s linear infinite;
+    animation-delay: -20s;
+}
+
+
+
+
+
+.run-title div span {
+    -webkit-text-stroke: 2px #F2CE12;
+    color: transparent;
+}
+
+.run-title-left div span {
+    -webkit-text-stroke: 2px #F2CE12;
+    color: transparent;
+}
+
+.side-text1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.index-container-box h1{}
+
+
+
+/*------------------------- container over ---------------------------------*/
+
+/*------------------------- index over---------------------------------*/
+.btn-6 {
+
+    color:#333;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    max-width: 500px;
+    margin: 1rem auto;
+    border: 1px solid #333;
+    z-index: 2;
+}
+
+.btn-6 span {
+    width: 0;
+    height: 0;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background-color:blue;
+    transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.btn-6:hover {
+    color:red;
+}
+
+.btn-6:hover span {
+    width: 225%;
+    height: 500%;
+}
+
+.btn-6:active {
+    background-color: green;
+}
