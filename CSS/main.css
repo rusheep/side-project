@@ -245,3 +245,20 @@ footer {
     height: 500%;
     z-index: -1;
 }
+
+/* =============================================== */
+
+.bg-change {
+    width: 0;
+    height: 0;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background-color:#183FA9;
+    transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+}
