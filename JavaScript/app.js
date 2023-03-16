@@ -1,3 +1,10 @@
+// // fullpage引入
+
+$(document).ready(function() {
+    $('#fullpage').fullpage();
+});
+
+// =========================banner================================
 var currentX = '';
 var currentY = '';
 var movementConstant = 0.0070; //值越大移動越大

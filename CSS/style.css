@@ -60,7 +60,7 @@ header {
 
 .banner-wrap {
     margin: 0 auto;
-    /* width: 100%; */
+    width: 1920px;
     /* border: 1px solid blue; */
     position: relative;
     overflow: hidden;
@@ -118,119 +118,34 @@ header {
     width: 100%;
 }
 
+.index-container-black {
+    margin-top: 6%;
+    background-color: black;
+}
+
 .index-container-box {
-    width: 1200px;
+    width: 100%;
     margin: 0 auto;
     margin-top: 10%;
-    position: relative;
     overflow: hidden;
+}
+
+.index-container-img-wrap {
+    display: flex;
+}
+
+.index-container-img-wrap h1 {
+    margin-left: 5%;
 }
 
 .index-container-box img {
     display: block;
 }
 
-.side-text1 {
-    color: #b3c3ec;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-.side-text2 {
-    color: #b3c3ec;
-    text-align: right;
-    position: absolute;
-    top: 0;
-    left: 700px;
-}
-
-.side-text3 {
-    color: #b3c3ec;
-    position: absolute;
-    top: 0;
-    left: 0px;
-}
-
-
-.side-text4 {
-    color: #b3c3ec;
-    text-align: right;
-    position: absolute;
-    top: 0;
-    left: 850px;
-}
 
 
 
 /*================= 跑馬燈============== */
-/* .run-title {
-    width: 100%;
-    display: flex;
-}
-
-.run-title-left {
-    width: 100%;
-    display: flex;
-}
-
-.text1 {
-    position: absolute;
-    transform: rotate(90deg) translateY(-520px);
-    /* box-shadow: 0 5px 15px rgba(0,0,0,0.5); */
-}
-
-.text2 {
-    position: absolute;
-    transform: rotate(90deg) translateY(520px);
-    /* box-shadow: 0 5px 15px rgba(0,0,0,0.5); */
-}
-
-.run-title-text {
-    /* background-color: #fff; */
-    white-space: nowrap;
-    font-weight: 900;
-    text-transform: uppercase;
-    animation: animaterun 40s linear infinite;
-    animation-delay: -40s;
-}
-
-
-.run-title div:nth-child(2) {
-    animation: animaterun2 40s linear infinite;
-    animation-delay: -20s;
-}
-
-.run-title-text-left {
-    /* background-color: #fff; */
-    white-space: nowrap;
-    font-weight: 900;
-    text-transform: uppercase;
-    animation: animaterunLeft 40s linear infinite;
-    animation-delay: -40s;
-}
-
-.run-title-left div:nth-child(2) {
-    animation: animaterunLeft2 40s linear infinite;
-    animation-delay: -20s;
-}
-
-
-
-
-
-.run-title div span {
-    -webkit-text-stroke: 2px #b3c3ec;;
-    color: transparent;
-}
-
-.run-title-left div span {
-    -webkit-text-stroke: 2px #b3c3ec;;
-    color: transparent;
-}
- */
-
-
 
 /*------------------------- container over ---------------------------------*/
 
