@@ -74,11 +74,12 @@ header {
     position: absolute;
     top: 0;
     left: 0;
+    z-index: 5;
 }
 
 .main {
     position: relative;
-    z-index: 1;
+    z-index: 10;
 }
 
 /* -------------------------index-btn----------------------------------- */
@@ -89,7 +90,7 @@ header {
     position: absolute;
     top: 650px;
     left: 360px;
-    z-index: 2;
+    z-index: 11;
 }
 
 .index-btn {

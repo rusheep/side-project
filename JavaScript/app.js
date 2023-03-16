@@ -53,8 +53,8 @@ $(document).ready(function() {
     $('.btn').mouseover(function() {
       var originalHeight = $('.bg-change').height();
       $('.bg-change').css({
-        'width': originalHeight +120* 20,
-        'height': originalHeight +120* 20
+        'width': originalHeight +220* 20,
+        'height': originalHeight +220* 20
       });
     }).mouseout(function() {
       $('.bg-change').css({
