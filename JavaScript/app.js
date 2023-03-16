@@ -1,7 +1,29 @@
 // // fullpage引入
 
 $(document).ready(function() {
-    $('#fullpage').fullpage();
+    $('#fullpage').fullpage({
+
+        // autoScrolling: false,
+        onLeave: function(origin, destination, direction) {
+            if(origin.index == 1 && direction == 'down') {
+                fullpage_api.setScrollingSpeed(2000); 
+                $('.black-box1').removeClass('animate__fadeOutUpBig');
+                $('.black-box1').addClass('animate__fadeOutUpBig');
+                $('.black-box2').removeClass('animate__fadeOutDownBig');
+                $('.black-box2').addClass('animate__fadeOutDownBig');
+            }
+
+        },
+        afterLoad: function(origin, destination, direction) {
+            if (destination.index === 1) {
+              fullpage_api.setScrollingSpeed(700); // 恢復默认的滚动速度
+              fullpage_api.setAutoScrolling(true);
+            }
+          }
+
+
+    
+    });
 });
 
 // =========================banner================================

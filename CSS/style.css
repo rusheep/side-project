@@ -120,8 +120,32 @@ header {
 
 .index-container-black {
     margin-top: 6%;
+}
+
+.box-wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.black-box1 {
+    width: 1920px;
+    height: 540px;
     background-color: black;
 }
+
+.black-box2 {
+    width: 1920px;
+    height: 540px;
+    background-color: black;
+}
+
+/* .animate__fadeOutUpBig {
+    animation-duration: 2s;
+}
+
+.animate__fadeOutDownBig {
+    animation-duration: 23s;
+} */
 
 .index-container-box {
     width: 100%;
