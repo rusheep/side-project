@@ -217,6 +217,28 @@ footer {
     z-index: 2;
 }
 
+.btn1 {
+
+}
+
+.btn2 {
+    color: #4CAF50;
+    border: 2px solid #4CAF50;
+    background-color: #c7e2c8;
+}
+
+.btn3 {
+    color: #FFEB3B;
+    border: 2px solid #FFEB3B;
+    background-color: #ebe8d2 ;
+}
+
+.btn4 {
+    color: #EE964B ;
+    border: 2px solid #EE964B;
+    background-color: #ebcdb4;
+}
+
 .btn a {
     position: absolute;
     z-index: 2;
