@@ -249,13 +249,58 @@ footer {
 
 /* =============================================== */
 
-.bg-change {
+.bg-change1 {
     width: 0;
     height: 0;
     display: block;
     position: absolute;
-    top: 100%;
-    left: 0%;
+    top: 69%;
+    left: 26%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background-color:#b3c3ec;
+    transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+}
+
+.bg-change2 {
+    width: 0;
+    height: 0;
+    display: block;
+    position: absolute;
+    top: 69%;
+    left: 42%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background-color:#b3c3ec;
+    transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+}
+
+.bg-change3 {
+    width: 0;
+    height: 0;
+    display: block;
+    position: absolute;
+    top: 69%;
+    left: 59%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background-color:#b3c3ec;
+    transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+}
+
+.bg-change4 {
+    width: 0;
+    height: 0;
+    display: block;
+    position: absolute;
+    top: 69%;
+    left: 75%;
     transform: translate(-50%, -50%);
     border-radius: 50%;
     background-color:#b3c3ec;
