@@ -27,7 +27,7 @@
                         <li><a href="../index.html">Home</a></li>
                         <li><a href="about.html">About</a></li>
                         <li><a href="project.html">Project</a></li>
-                        <li><a href="contract.html">Contract</a></li>
+                        <li><a href="contract.html">Contact</a></li>
                         <li><a href="case.html">Case</a></li>
                     </ul>
                     <div class="en">
@@ -39,19 +39,33 @@
         </header>
         <!-- 這裡是內容 -->
         <div class="contract-container">
-            <h2 class="title">關於我</h2>
+            <h2 class="title">Contact</h2>
 
             <div class="contract-wrap">
-                <h4>姓名</h4>
-                <input type="text" class="name">
-                <h4>Email</h4>
-                <input type="text" class="email">
-                <h4>手機號碼</h4>
-                <input type="text" class="number">
-                <h4>標題</h4>
-                <input type="text" class="title">
-                <h4>內容</h4>
-                <input type="text" class="content">
+                <form action="">
+                    <div class="contact-row">
+                        <div class="input-group">
+                            <input type="text" id="name" required>
+                            <label for="name">你的姓名</label>
+                        </div>
+    
+                        <div class="input-group">
+                            <input type="text" id="number" required>
+                            <label for="number">你的電話</label>
+                        </div>
+                    </div>
+
+                    <div class="input-group">
+                        <input type="email" id="email" required>
+                        <label for="email">Email</label>
+                    </div>
+
+                    <div class="input-group">
+                        <textarea id="message" rows="8" required></textarea>
+                        <label for="message">詢問內容</label>
+                    </div>
+                    <button type="submit">送出</button>
+                </form>
                 
             </div>
         </div>
