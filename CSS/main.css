@@ -155,7 +155,6 @@ footer {
 }
 
 .footer-wrap {
-    border: 1px solid white;
     width: 1200px;
     margin: 0 auto;
     margin-bottom: 20px;
@@ -236,7 +235,9 @@ footer {
 }
 
 .btn1 {
-
+    color: #183FA9;
+    border: 2px solid #183FA9;
+    background-color: #b3c3ec;
 }
 
 .btn2 {
@@ -248,7 +249,7 @@ footer {
 .btn3 {
     color: #FFEB3B;
     border: 2px solid #FFEB3B;
-    background-color: #ebe8d2 ;
+    background-color: #ebe8d2;
 }
 
 .btn4 {
@@ -262,7 +263,7 @@ footer {
     z-index: 2;
 }
 
-.btn span {
+.btn1 span {
     width: 0;
     height: 0;
     display: block;
@@ -277,8 +278,68 @@ footer {
     z-index: 1;
 }
 
-.btn:hover {
+.btn2 span {
+    width: 0;
+    height: 0;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background-color:#4CAF50;
+    transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+
+.btn3 span {
+    width: 0;
+    height: 0;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background-color: #FFEB3B;
+    transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+
+.btn4 span {
+    width: 0;
+    height: 0;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background-color: #EE964B;
+    transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+
+.btn1:hover {
     color: #b3c3ec;
+}
+
+.btn2:hover {
+    color: #c7e2c8;
+}
+
+.btn3:hover {
+    color: #ebe8d2 ;
+}
+
+.btn4:hover {
+    color:  #ebcdb4;
 }
 
 .btn:hover span {
@@ -313,7 +374,7 @@ footer {
     left: 42%;
     transform: translate(-50%, -50%);
     border-radius: 50%;
-    background-color:#b3c3ec;
+    background-color:#c7e2c8;
     transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
     transform: translate(-50%, -50%);
     z-index: 0;
@@ -328,7 +389,7 @@ footer {
     left: 59%;
     transform: translate(-50%, -50%);
     border-radius: 50%;
-    background-color:#b3c3ec;
+    background-color:#ebe8d2;
     transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
     transform: translate(-50%, -50%);
     z-index: 0;
@@ -343,8 +404,9 @@ footer {
     left: 75%;
     transform: translate(-50%, -50%);
     border-radius: 50%;
-    background-color:#b3c3ec;
+    background-color:#ebcdb4;
     transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
     transform: translate(-50%, -50%);
     z-index: 0;
 }
+/* =================================================================== */
