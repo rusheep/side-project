@@ -51,6 +51,9 @@
 
 /*------------------------- index start---------------------------------*/
 /*------------------------- header ---------------------------------*/
+.wrap {
+    width: 1920px;
+}
 
 header {
     position: relative;
@@ -109,6 +112,8 @@ header {
 
 }
 
+
+
 .scrollToTopBtn {
     width: 30px;
     height: 30px;
@@ -121,10 +126,14 @@ header {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    position: absolute;
-    left: 1810px;
-    top: 6570px;
+    /* position: absolute; */
+    position: sticky;
+    left: 1800px;
+    bottom: 50px;
+    z-index: 100;
 }
+
+
 
 /* -------------------------index-btn over----------------------------------- */
 
@@ -167,6 +176,7 @@ header {
     margin: 0 auto;
     margin-top: 10%;
     overflow: hidden;
+    /* position: relative; */
 }
 
 .index-container-img-wrap {
@@ -180,6 +190,8 @@ header {
 .index-container-box img {
     display: block;
 }
+
+
 
 
 
