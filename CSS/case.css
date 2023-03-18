@@ -19,6 +19,8 @@ body {
     width: 1200px;
     margin: 0 auto;
     margin-top: 15%;
+    /* background-color: rgb(217, 217, 217, 0.4); */
+    margin-bottom: 5%;
 }
 
 .title {
