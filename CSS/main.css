@@ -47,7 +47,8 @@ a {
 
 .wrap {
     margin: 0 auto;
-    width: 1920px;
+    /* width: 1920px; */
+    width: 100%;
     /* border: 1px solid black; */
     /* background-color: #ececec; */
     position: relative;
@@ -147,12 +148,13 @@ nav {
 
 footer {
     width: 100%;
-    height: 200px;
+    height: 230px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: rgb(217, 217, 217 ,0.4);
+    
 }
 
 .footer-wrap {

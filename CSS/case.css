@@ -8,6 +8,13 @@ p {
     color: white;
 }
 
+body {
+    background-image: url(../img/project_img/project13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
 .case-container {
     width: 1200px;
     margin: 0 auto;

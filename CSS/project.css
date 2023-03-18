@@ -3,7 +3,7 @@ body {
     background-image: url(../img/project_img/project18.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center -100px;
+    background-position: center center;
 }
 
 .project-container {

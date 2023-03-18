@@ -1,3 +1,9 @@
+body {
+    background-image: url(../img/project_img/project10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
 
 .faq-container {
     width: 100%;
@@ -9,6 +15,7 @@
     text-align: center;
     margin-top: 5%;
     margin-bottom: 5%;
+    color: #ececec;
 }
 
 .faq-wrap {
@@ -41,6 +48,7 @@
 .question p {
     width: 80%;
     text-align: left;
+    color: #ececec;
 }
 
 .answer {
@@ -56,5 +64,6 @@
 .answer p {
     width: 600px;
     text-align: left;
+    color: #ececec;
 }
 
