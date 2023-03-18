@@ -240,25 +240,25 @@ footer {
 .btn1 {
     color: #183FA9;
     /* border: 2px solid #183FA9; */
-    background-color: #b3c3ec;
+    background-color: rgb(179, 195, 236, 0.8);
 }
 
 .btn2 {
     color: #4CAF50;
     /* border: 2px solid #4CAF50; */
-    background-color: #c7e2c8;
+    background-color: rgb(199, 226, 200,0.8);
 }
 
 .btn3 {
     color: #F44336;
     /* border: 2px solid #F44336; */
-    background-color: #f0cac7;
+    background-color: rgb(240, 202, 199, 0.8);
 }
 
 .btn4 {
     color: #EE964B ;
     /* border: 2px solid #EE964B; */
-    background-color: #ebcdb4;
+    background-color: rgb(235, 205, 180, 0.8);
 }
 
 .btn a {
