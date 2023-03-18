@@ -45,28 +45,28 @@ p {
 
 .card-item1 {
     width: 100%;
-    background-image: url(../img/case_img/人物.jpg);
+    background-image: url(../img/case_img/case01.jpg);
     background-position: center center;
     background-size: cover;
 }
 
 .card-item2 {
     width: 100%;
-    background-image: url(../img/case_img/背景.jpg);
+    background-image: url(../img/case_img/case02.jpg);
     background-position: center 960px;
     background-size: cover;
 }
 
 .card-item3 {
     width: 100%;
-    background-image: url(../img/case_img/角色立繪.jpg);
+    background-image: url(../img/case_img/case03.jpg);
     background-position: center top;
     background-size: cover;
 }
 
 .card-item4 {
     width: 100%;
-    background-image: url(../img/case_img/頭貼.jpg);
+    background-image: url(../img/case_img/case04.jpg);
     background-position: center -170px;
     background-size: cover;
 }

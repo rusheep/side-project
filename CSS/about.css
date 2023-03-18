@@ -4,6 +4,16 @@ header {
 
 }
 
+body {
+    background-image: url(../img/about_img/about_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.wrap {
+    background-color: #ececec;
+}
+
 .title {
     text-align: center;
     margin-top: 5%;
@@ -13,7 +23,8 @@ header {
 .about-container {
     width: 1200px;
     margin: 0 auto;
-    margin-top: 15%;
+    margin-top: 25%;
+    /* background-image: url(../img/home_img/bg.png); */
 }
 
 .about-content {

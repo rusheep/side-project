@@ -6,7 +6,7 @@ $(document).ready(function() {
         // autoScrolling: false,
         onLeave: function(origin, destination, direction) {
             if(origin.index == 1 && direction == 'down') {
-                fullpage_api.setScrollingSpeed(2000); 
+                fullpage_api.setScrollingSpeed(1500); 
                 $('.black-box1').removeClass('animate__fadeOutUpBig');
                 $('.black-box1').addClass('animate__fadeOutUpBig');
                 $('.black-box2').removeClass('animate__fadeOutDownBig');
