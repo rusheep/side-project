@@ -1,5 +1,5 @@
 
-// // fullpage引入
+// fullpage引入
 
 $(document).ready(function() {
     $('#fullpage').fullpage({

@@ -229,7 +229,7 @@ footer {
     overflow: hidden;
     width: 250px;
     height: 60px;
-    /* text-align: center; */
+    text-align: center;
     line-height: 60px;
     margin: 1rem auto;
     /* border: 2px solid #183FA9; */
@@ -238,27 +238,27 @@ footer {
 }
 
 .btn1 {
-    color: #183FA9;
+    color: rgb(24, 63, 169);
     /* border: 2px solid #183FA9; */
     background-color: rgb(179, 195, 236,0.8);
 }
 
 .btn2 {
-    color: rgb(16, 83, 71);
-    /* border: 2px solid #4CAF50; */
-    background-color: rgba(159, 224, 212, 0.8);
+    color: rgb(24, 63, 169);
+    /* border: 2px solid #183FA9; */
+    background-color: rgb(179, 195, 236,0.8);
 }
 
 .btn3 {
-    color: rgb(167, 138, 240);
-    /* border: 2px solid #F44336; */
-    background-color: rgba(206, 197, 230, 0.8);
+    color: rgb(24, 63, 169);
+    /* border: 2px solid #183FA9; */
+    background-color: rgb(179, 195, 236,0.8);
 }
 
 .btn4 {
-    color: rgb(50, 138, 170);
-    /* border: 2px solid #EE964B; */
-    background-color: rgba(178, 202, 211, 0.8);
+    color: rgb(24, 63, 169);
+    /* border: 2px solid #183FA9; */
+    background-color: rgb(179, 195, 236,0.8);
 }
 
 .btn a {
@@ -275,7 +275,7 @@ footer {
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 50%;
-    background-color:#183FA9;
+    background-color:#ececec;
     transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
     transform: translate(-50%, -50%);
     z-index: 1;
@@ -290,7 +290,7 @@ footer {
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 50%;
-    background-color:rgb(16, 83, 71);
+    background-color:#ececec;
     transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
     transform: translate(-50%, -50%);
     z-index: 1;
@@ -306,7 +306,7 @@ footer {
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 50%;
-    background-color: rgb(167, 138, 240);
+    background-color:#ececec;
     transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
     transform: translate(-50%, -50%);
     z-index: 1;
@@ -322,7 +322,7 @@ footer {
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 50%;
-    background-color: rgb(50, 138, 170);
+    background-color:#ececec;
     transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
     transform: translate(-50%, -50%);
     z-index: 1;
@@ -334,15 +334,15 @@ footer {
 }
 
 .btn2:hover {
-    color: rgba(159, 224, 212, 0.8);
+    color: #b3c3ec;
 }
 
 .btn3:hover {
-    color: rgba(206, 197, 230, 0.8);
+    color: #b3c3ec;
 }
 
 .btn4:hover {
-    color:  rgba(178, 202, 211, 0.8);
+    color: #b3c3ec;
 }
 
 .btn:hover span {
@@ -362,7 +362,7 @@ footer {
     left: 26%;
     transform: translate(-50%, -50%);
     border-radius: 50%;
-    background-color:#b3c3ec;
+    background-color:rgba(88, 127, 224, 0.8);
     transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
     transform: translate(-50%, -50%);
     z-index: 0;
@@ -377,7 +377,7 @@ footer {
     left: 42%;
     transform: translate(-50%, -50%);
     border-radius: 50%;
-    background-color:rgba(159, 224, 212, 0.8);
+    background-color:rgba(112, 145, 228, 0.8);
     transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
     transform: translate(-50%, -50%);
     z-index: 0;
@@ -392,7 +392,7 @@ footer {
     left: 59%;
     transform: translate(-50%, -50%);
     border-radius: 50%;
-    background-color: rgba(206, 197, 230, 0.8);
+    background-color:rgba(172, 193, 245, 0.8);
     transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
     transform: translate(-50%, -50%);
     z-index: 0;
@@ -407,7 +407,7 @@ footer {
     left: 75%;
     transform: translate(-50%, -50%);
     border-radius: 50%;
-    background-color:rgba(178, 202, 211, 0.8);
+    background-color:rgba(198, 207, 230, 0.8);
     transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
     transform: translate(-50%, -50%);
     z-index: 0;
