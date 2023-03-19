@@ -1,3 +1,4 @@
+
 // // fullpage引入
 
 $(document).ready(function() {
@@ -16,15 +17,15 @@ $(document).ready(function() {
             $('#scrollToTopBtn').click(function() {
                 // 使用 moveTo 方法將滾動條移動到第一個區段
                 $.fn.fullpage.moveTo(1);
-              });
+            });
 
         },
         afterLoad: function(origin, destination, direction) {
             if (destination.index === 1) {
-              fullpage_api.setScrollingSpeed(700); // 恢復默认的滚动速度
-              fullpage_api.setAutoScrolling(true);
+                fullpage_api.setScrollingSpeed(700); // 恢復默认的滚动速度
+                fullpage_api.setAutoScrolling(true);
             }
-          },
+        },
 
 
 
