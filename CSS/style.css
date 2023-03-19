@@ -205,14 +205,6 @@ header {
     position: relative;
 }
 
-/* .index-subtitle {
-    color: #fff;
-    background-color: #000;
-    position: absolute;
-    width: 100%;
-    top: 50px;
-    right: 100px;
-} */
 
 .index-item-text img {
     width: 500px;
@@ -220,65 +212,6 @@ header {
     top: 250px;
     left: -200px;
 }
-
-/* .index-item2 .text-box-top
-,.index-item3 .text-box-top {
-    width: 100%;
-    height: 40%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-} */
-
-/* .index-item1 {
-    height: 100%;
-} */
-/* 
-.index-item2  .text-box-bottom,
-.index-item3 .text-box-bottom {
-    width: 100%;
-    height: 40%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: end;
-} */
-
-/* .index-item1 .text-box-top {
-    width: 100%;
-    height: 40%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    position: absolute;
-    top: 0;
-    left: 0;
-} */
-
-/* .index-item1  .text-box-bottom {
-    width: 100%;
-    height: 50%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: end;
-} */
-
-/* .index-item4 .text-box-top {
-    width: 100%;
-    height: 50%;
-    display: flex;
-    justify-content: start;
-    align-items: center;
-}
-
-.index-item4  .text-box-bottom {
-    width: 100%;
-    height: 50%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: end;
-}
- */
-
 
 
 /*================= 跑馬燈============== */
