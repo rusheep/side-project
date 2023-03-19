@@ -220,45 +220,45 @@ footer {
 /* btn======================================================== */
 
 .btn {
-
+    letter-spacing: 1.6;
     color: #183fa9;
-    background-color: rgb(219, 225, 240,0.8);
+    /* background-color: rgb(219, 225, 240,0.8); */
     font-weight: 800;
     position: relative;
     display: block;
     overflow: hidden;
-    width: 180px;
-    height: 180px;
-    text-align: center;
-    line-height: 180px;
+    width: 250px;
+    height: 60px;
+    /* text-align: center; */
+    line-height: 60px;
     margin: 1rem auto;
     /* border: 2px solid #183FA9; */
-    border-radius: 50%;
+    border-radius: 40px;
     z-index: 2;
 }
 
 .btn1 {
     color: #183FA9;
     /* border: 2px solid #183FA9; */
-    background-color: rgb(179, 195, 236, 0.8);
+    background-color: rgb(179, 195, 236,0.8);
 }
 
 .btn2 {
-    color: #4CAF50;
+    color: rgb(16, 83, 71);
     /* border: 2px solid #4CAF50; */
-    background-color: rgb(199, 226, 200,0.8);
+    background-color: rgba(159, 224, 212, 0.8);
 }
 
 .btn3 {
-    color: #F44336;
+    color: rgb(167, 138, 240);
     /* border: 2px solid #F44336; */
-    background-color: rgb(240, 202, 199, 0.8);
+    background-color: rgba(206, 197, 230, 0.8);
 }
 
 .btn4 {
-    color: #EE964B ;
+    color: rgb(50, 138, 170);
     /* border: 2px solid #EE964B; */
-    background-color: rgb(235, 205, 180, 0.8);
+    background-color: rgba(178, 202, 211, 0.8);
 }
 
 .btn a {
@@ -290,7 +290,7 @@ footer {
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 50%;
-    background-color:#4CAF50;
+    background-color:rgb(16, 83, 71);
     transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
     transform: translate(-50%, -50%);
     z-index: 1;
@@ -306,7 +306,7 @@ footer {
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 50%;
-    background-color: #F44336;
+    background-color: rgb(167, 138, 240);
     transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
     transform: translate(-50%, -50%);
     z-index: 1;
@@ -322,7 +322,7 @@ footer {
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 50%;
-    background-color: #EE964B;
+    background-color: rgb(50, 138, 170);
     transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
     transform: translate(-50%, -50%);
     z-index: 1;
@@ -334,15 +334,15 @@ footer {
 }
 
 .btn2:hover {
-    color: #c7e2c8;
+    color: rgba(159, 224, 212, 0.8);
 }
 
 .btn3:hover {
-    color: #f0cac7 ;
+    color: rgba(206, 197, 230, 0.8);
 }
 
 .btn4:hover {
-    color:  #ebcdb4;
+    color:  rgba(178, 202, 211, 0.8);
 }
 
 .btn:hover span {
@@ -377,7 +377,7 @@ footer {
     left: 42%;
     transform: translate(-50%, -50%);
     border-radius: 50%;
-    background-color:#c7e2c8;
+    background-color:rgba(159, 224, 212, 0.8);
     transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
     transform: translate(-50%, -50%);
     z-index: 0;
@@ -392,7 +392,7 @@ footer {
     left: 59%;
     transform: translate(-50%, -50%);
     border-radius: 50%;
-    background-color:#f0cac7;
+    background-color: rgba(206, 197, 230, 0.8);
     transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
     transform: translate(-50%, -50%);
     z-index: 0;
@@ -407,7 +407,7 @@ footer {
     left: 75%;
     transform: translate(-50%, -50%);
     border-radius: 50%;
-    background-color:#ebcdb4;
+    background-color:rgba(178, 202, 211, 0.8);
     transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
     transform: translate(-50%, -50%);
     z-index: 0;
