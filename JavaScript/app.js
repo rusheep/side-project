@@ -1,37 +1,37 @@
 
 // fullpage引入
 
-$(document).ready(function() {
-    $('#fullpage').fullpage({
+// $(document).ready(function() {
+//     $('#fullpage').fullpage({
 
-        // autoScrolling: false,
-        onLeave: function(origin, destination, direction) {
-            if(origin.index == 1 && direction == 'down') {
-                fullpage_api.setScrollingSpeed(1500); 
-                $('.black-box1').removeClass('animate__fadeOutUpBig');
-                $('.black-box1').addClass('animate__fadeOutUpBig');
-                $('.black-box2').removeClass('animate__fadeOutDownBig');
-                $('.black-box2').addClass('animate__fadeOutDownBig');
-            }
+//         // autoScrolling: false,
+//         onLeave: function(origin, destination, direction) {
+//             if(origin.index == 1 && direction == 'down') {
+//                 fullpage_api.setScrollingSpeed(1500); 
+//                 $('.black-box1').removeClass('animate__fadeOutUpBig');
+//                 $('.black-box1').addClass('animate__fadeOutUpBig');
+//                 $('.black-box2').removeClass('animate__fadeOutDownBig');
+//                 $('.black-box2').addClass('animate__fadeOutDownBig');
+//             }
 
-            $('#scrollToTopBtn').click(function() {
-                // 使用 moveTo 方法將滾動條移動到第一個區段
-                $.fn.fullpage.moveTo(1);
-            });
+//             $('#scrollToTopBtn').click(function() {
+//                 // 使用 moveTo 方法將滾動條移動到第一個區段
+//                 $.fn.fullpage.moveTo(1);
+//             });
 
-        },
-        afterLoad: function(origin, destination, direction) {
-            if (destination.index === 1) {
-                fullpage_api.setScrollingSpeed(700); // 恢復默认的滚动速度
-                fullpage_api.setAutoScrolling(true);
-            }
-        },
+//         },
+//         afterLoad: function(origin, destination, direction) {
+//             if (destination.index === 1) {
+//                 fullpage_api.setScrollingSpeed(700); // 恢復默认的滚动速度
+//                 fullpage_api.setAutoScrolling(true);
+//             }
+//         },
 
 
 
     
-    });
-});
+//     });
+// });
 
 // =========================banner================================
 var currentX = '';
