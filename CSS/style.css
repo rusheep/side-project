@@ -147,25 +147,32 @@ header {
 
 .box-wrap {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     text-align: center;
 }
 
 .black-box1 {
-    width: 100%;
-    height: 50vh;  
+    width: 50%;
+    height: 100vh;  
     background-color: black;
     color: white;
     font-size: 16px;
     display: flex;
-    justify-content: center;
-    align-items: end;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: right;
 }
 
 .black-box2 {
-    width: 100%;
-    height: 50vh;
+    width: 50%;
+    height: 100vh;  
     background-color: black;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align-last: left;
 }
 
 

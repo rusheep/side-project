@@ -33,6 +33,44 @@
 //     });
 // });
 
+// ===========================scroll=====================================
+
+document.addEventListener('DOMContentLoaded', function() {
+    // 在這裡編寫需要在 HTML 文件完全載入後執行的 JavaScript 代碼
+    // 取得指定div的位置和大小
+    var divTop1 = document.getElementById('myDiv1').getBoundingClientRect().top;
+    var div2Top = document.getElementById('myDiv2').getBoundingClientRect().top;
+    console.log (window.pageYOffset);
+    console.log (divTop1);
+    // 監聽網頁滾動事件
+    window.addEventListener('scroll', function() {
+    // 當網頁頂部觸碰到指定div時
+    if (window.pageYOffset >= divTop1 + (document.getElementById('myDiv1').offsetHeight * 0.15)) {
+   
+        // 計算div往左移出的距離
+        var distance = window.pageYOffset - divTop1;
+        // 移出距離不超過div寬度
+        distance = Math.min(distance, document.getElementById('myDiv1').offsetWidth);
+        // 設定div的位移
+        document.getElementById('myDiv1').style.transform = 'translateX(' + (-distance) + 'px)';
+   
+   
+        // 計算div2往右移出的距離
+        var distance2 = window.pageYOffset - div2Top;
+        // 移出距離不超過div2寬度
+        distance2 = Math.min(distance2, document.getElementById('myDiv2').offsetWidth);
+        // 設定div2的位移
+        document.getElementById('myDiv2').style.transform = 'translateX(' + distance2 + 'px)';
+   
+   
+    } else {
+   
+        document.getElementById('myDiv1').style.transform = 'translateX(0)';
+        document.getElementById('myDiv2').style.transform = 'translateX(0)';
+    }
+    });
+  });
+
 // =========================banner================================
 var currentX = '';
 var currentY = '';
