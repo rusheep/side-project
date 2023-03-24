@@ -1,38 +1,4 @@
 
-// fullpage引入
-
-// $(document).ready(function() {
-//     $('#fullpage').fullpage({
-
-//         // autoScrolling: false,
-//         onLeave: function(origin, destination, direction) {
-//             if(origin.index == 1 && direction == 'down') {
-//                 fullpage_api.setScrollingSpeed(1500); 
-//                 $('.black-box1').removeClass('animate__fadeOutUpBig');
-//                 $('.black-box1').addClass('animate__fadeOutUpBig');
-//                 $('.black-box2').removeClass('animate__fadeOutDownBig');
-//                 $('.black-box2').addClass('animate__fadeOutDownBig');
-//             }
-
-//             $('#scrollToTopBtn').click(function() {
-//                 // 使用 moveTo 方法將滾動條移動到第一個區段
-//                 $.fn.fullpage.moveTo(1);
-//             });
-
-//         },
-//         afterLoad: function(origin, destination, direction) {
-//             if (destination.index === 1) {
-//                 fullpage_api.setScrollingSpeed(700); // 恢復默认的滚动速度
-//                 fullpage_api.setAutoScrolling(true);
-//             }
-//         },
-
-
-
-    
-//     });
-// });
-
 // ===========================scroll=====================================
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -46,30 +12,29 @@ document.addEventListener('DOMContentLoaded', function() {
     window.addEventListener('scroll', function() {
     // 當網頁頂部觸碰到指定div時
     if (window.pageYOffset >= divTop1 + (document.getElementById('myDiv1').offsetHeight * 0.15)) {
-   
+
         // 計算div往左移出的距離
         var distance = window.pageYOffset - divTop1;
         // 移出距離不超過div寬度
         distance = Math.min(distance, document.getElementById('myDiv1').offsetWidth);
         // 設定div的位移
         document.getElementById('myDiv1').style.transform = 'translateX(' + (-distance) + 'px)';
-   
-   
+
+
         // 計算div2往右移出的距離
         var distance2 = window.pageYOffset - div2Top;
         // 移出距離不超過div2寬度
         distance2 = Math.min(distance2, document.getElementById('myDiv2').offsetWidth);
         // 設定div2的位移
         document.getElementById('myDiv2').style.transform = 'translateX(' + distance2 + 'px)';
-   
-   
+
+
     } else {
-   
         document.getElementById('myDiv1').style.transform = 'translateX(0)';
         document.getElementById('myDiv2').style.transform = 'translateX(0)';
     }
     });
-  });
+});
 
 // =========================banner================================
 var currentX = '';

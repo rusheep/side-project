@@ -186,8 +186,8 @@ header {
 .index-container-img-wrap {
     display: flex;
     justify-content: center;
-    align-items: end;
-    background-color: rgb(217, 217, 217 ,0.4);
+    align-items: start;
+    /* background-color: rgb(217, 217, 217 ,0.4); */
     position: relative;
 }
 
@@ -195,12 +195,33 @@ header {
     display: block;
     width: 70%;
 }
+/* .img-intro {
+    height: 100vh;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+} */
 
-.img-intro img {
-    width: 350px;
+.img-intro {
     position: absolute;
     top: 250px;
     right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-intro img {
+    width: 450px;
+}
+
+.img-intro h4 {
+    width: 250px;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgb(217, 217, 217 ,0.8);
+    border-radius: 15px;
 }
 
 
