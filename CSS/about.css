@@ -12,7 +12,7 @@ body {
 }
 
 .wrap {
-    background-color: rgb(217, 217, 217 ,0.4);
+    /* background-color: rgb(217, 217, 217 ,0.4); */
 }
 
 .title {
@@ -31,7 +31,17 @@ body {
 
 .about-content {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    background-color: rgb(217, 217, 217 ,0.4); 
+    padding: 5%;
+    margin: 5%;
+    border-radius: 15px;
+    backdrop-filter: blur(8px);
+}
+
+.article-wrap {
+    display: flex;
 }
 
 .photo-section {

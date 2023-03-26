@@ -48,8 +48,13 @@ body {
 }
 
 .case-card-content {
-    padding: 5%;
+    /* padding: 5%; */
+    margin-top: 5%;
+    margin-left: 5%;
     width: 30%;
+    background-color:rgba(26, 26, 26, 0.1);
+    border-radius: 15px;
+    backdrop-filter: blur(8px);
 }
 
 .card-item1 {

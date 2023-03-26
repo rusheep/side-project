@@ -33,6 +33,7 @@ p {
     line-height: 1.6;
     flex-grow: 1;
     background-color: rgb(217, 217, 217 ,0.4);
+    backdrop-filter: blur(8px);
     border-radius: 15px;
 }
 
@@ -90,6 +91,7 @@ p {
 .price-item {
     margin: 5%;
     background-color: rgb(217, 217, 217 ,0.4);
+    backdrop-filter: blur(8px);
     border-radius: 15px;
     padding: 20px;
 }
