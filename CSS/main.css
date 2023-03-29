@@ -222,6 +222,11 @@ footer {
     z-index: 2;
 }
 
+.btn-on {
+    color: #b3c3ec;
+    background-color:#ececec;
+}
+
 .btn1 {
     color: rgb(24, 63, 169);
     /* border: 2px solid #183FA9; */

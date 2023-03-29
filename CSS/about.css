@@ -8,7 +8,8 @@ body {
     background-image: url(../img/bg_img/bg06.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: top center;
+    background-attachment: fixed;
 }
 
 .wrap {
@@ -24,7 +25,7 @@ body {
 .about-container {
     width: 1200px;
     margin: 0 auto;
-    margin-top: 20%;
+    margin-top: 10%;
     /* padding-top: 5%; */
     /* background-image: url(../img/home_img/bg.png); */
 }
