@@ -45,13 +45,18 @@ function displayImg() {
         const imageId = `image-${myObject[i].id}`;
         const imageUrl = `project${myObject[i].id}.jpg`;
 
-
+        
         let pic_str =
             `<div class="pj-item">
             <img id="image-1${imageId}" src="../img/project_img/${imageUrl}" alt="">
         </div>`
-
+        
+        console.log(pic_str);
         pj_content_el.insertAdjacentHTML("beforeend", pic_str); 
+        // setTimeout(() => {
+        //     console.log(pic_str);
+        //     pj_content_el.insertAdjacentHTML('beforeend', pic_str);
+        //   }, (i + 1) * 100); // 延遲載入時間為 (i + 1) 秒
     })
 };
 
