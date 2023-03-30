@@ -1,3 +1,5 @@
+
+
 let myObject = [{ id: '01', type: '人物' },
 { id: '02', type: '場景' },
 { id: '03', type: '場景' },
@@ -55,42 +57,69 @@ function displayImg() {
 
 
 
-function btn_filter(btn,img_type) {
-    let btn_switch =false;
-    btn.addEventListener('click',function(e) {
-
-
-        // const all_btn = document.querySelectorAll(".btn");
-        // console.log(all_btn[0]);
-        // all_btn.forEach((item,i)=> {
-        //     all_btn[i].classList.remove('btn-on');
-        // })
-        // btn.style.classList.add('btn-on');
-
-
-        btn_switch = !btn_switch;
-        e.preventDefault();
-        pj_content_el.innerHTML = '';
+// function btn_filter(btn,img_type) {
+//     let btn_switch =false;
+//     btn.addEventListener('click',function(e) {
+//         btn_switch = !btn_switch;
+//         e.preventDefault();
+//         pj_content_el.innerHTML = '';
         
-        if(btn_switch) {
+//         if(btn_switch) {
 
-            const peopleArr = myObject.filter(item => item.type == img_type);
+//             const peopleArr = myObject.filter(item => item.type == img_type);
 
-            peopleArr.forEach((item, i) => {
-                // console.log(item);
-                let pic_str =
-                    `<div class="pj-item">
-                <img id="image-1${item.id}" src="../img/project_img/project${item.id}.jpg" alt="">
-            </div>`
+//             peopleArr.forEach((item, i) => {
+//                 // console.log(item);
+//                 let pic_str =
+//                     `<div class="pj-item">
+//                 <img id="image-1${item.id}" src="../img/project_img/project${item.id}.jpg" alt="">
+//             </div>`
 
-                pj_content_el.insertAdjacentHTML("beforeend", pic_str);
-            })
-        }else {
+//                 pj_content_el.insertAdjacentHTML("beforeend", pic_str);
+//             })
+//         }else {
+//             displayImg();
+//         }
+//     });
+// };
+
+
+function btn_filter(btn,img_type) {
+    btn.addEventListener('click',function(e) {
+        e.preventDefault();
+    
+        console.log(img_type);
+        const all_btn = document.querySelectorAll(".btn");
+        all_btn.forEach((item,i) => {
+            // console.log(all_btn[i]);
+            all_btn[i].classList.remove("-on");
+        })
+        
+        // console.log(this);
+        this.classList.add("-on");
+    
+        if(img_type =='全部') {
             displayImg();
+        }else {
+            
+            pj_content_el.innerHTML = '';
+                const peopleArr = myObject.filter(item => item.type == img_type);
+    
+                peopleArr.forEach((item, i) => {
+                    // console.log(item);
+                    let pic_str =
+                        `<div class="pj-item">
+                    <img id="image-1${item.id}" src="../img/project_img/project${item.id}.jpg" alt="">
+                </div>`
+    
+                    pj_content_el.insertAdjacentHTML("beforeend", pic_str);
+                })
         }
     });
 };
 
+const btn0 = document.querySelector('.btn0');
+btn_filter(btn0,"全部");
 
 const btn1 = document.querySelector('.btn1');
 btn_filter(btn1,"人物");

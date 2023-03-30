@@ -222,9 +222,10 @@ footer {
     z-index: 2;
 }
 
-.btn-on {
-    color: #b3c3ec;
-    background-color:#ececec;
+.btn0 {
+    color: rgb(24, 63, 169);
+    /* border: 2px solid #183FA9; */
+    background-color: rgb(179, 195, 236,0.8);
 }
 
 .btn1 {
@@ -316,6 +317,12 @@ footer {
     transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
     transform: translate(-50%, -50%);
     z-index: 1;
+}
+
+.-on {
+    background-color:#ececec;
+    color: rgb(179, 195, 236,0.8);
+    pointer-events: none;
 }
 
 

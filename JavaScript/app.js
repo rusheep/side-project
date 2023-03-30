@@ -88,7 +88,7 @@ $(function () {
 
 // ================btn1================
 
-$(document).ready(function() {
+$(function() {
     $('.btn1').mouseover(function() {
         var originalHeight = $('.bg-change1').height();
         $('.bg-change1').css({
@@ -105,7 +105,7 @@ $(document).ready(function() {
 
     // ================btn2================
 
-$(document).ready(function() {
+$(function() {
     $('.btn2').mouseover(function() {
         var originalHeight = $('.bg-change2').height();
         $('.bg-change2').css({
@@ -122,7 +122,7 @@ $(document).ready(function() {
 
         // ================btn3================
 
-$(document).ready(function() {
+$(function() {
     $('.btn3').mouseover(function() {
         var originalHeight = $('.bg-change3').height();
         $('.bg-change3').css({
@@ -139,7 +139,7 @@ $(document).ready(function() {
 
         // ================btn2================
 
-$(document).ready(function() {
+$(function() {
     $('.btn4').mouseover(function() {
         var originalHeight = $('.bg-change4').height();
         $('.bg-change4').css({
