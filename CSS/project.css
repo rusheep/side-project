@@ -11,6 +11,10 @@ body {
     width: 100%;
 }
 
+.navbar a {
+    color: whitesmoke;
+}
+
 .project-container {
     width: 1200px;
     margin: 0 auto;

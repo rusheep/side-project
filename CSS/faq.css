@@ -5,6 +5,10 @@ body {
     background-position: center center;
 }
 
+.navbar a {
+    color: whitesmoke;
+}
+
 .faq-container {
     width: 100%;
     margin: 0 auto;

@@ -3,14 +3,20 @@ p {
 }
 
 .wrap {
+    width: 100%;
     background-image: url(../img/bg_img/bg02.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: center 0px;
+    background-attachment: fixed;
+}
+
+.navbar a {
+    color: whitesmoke;
 }
 
 .price-container {
-    width: 1200px;
+    width: 70%;
     margin: 0 auto;
 }
 
