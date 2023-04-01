@@ -48,7 +48,9 @@ function displayImg() {
         
         let pic_str =
             `<div class="pj-item">
-            <img id="image-1${imageId}" src="../img/project_img/${imageUrl}" alt="">
+            <a href = "../img/project_img/${imageUrl}">
+                <img id="image-1${imageId}" src="../img/project_img/${imageUrl}" alt="">
+            </a>
         </div>`
         
         console.log(pic_str);
@@ -60,33 +62,6 @@ function displayImg() {
     })
 };
 
-
-
-// function btn_filter(btn,img_type) {
-//     let btn_switch =false;
-//     btn.addEventListener('click',function(e) {
-//         btn_switch = !btn_switch;
-//         e.preventDefault();
-//         pj_content_el.innerHTML = '';
-        
-//         if(btn_switch) {
-
-//             const peopleArr = myObject.filter(item => item.type == img_type);
-
-//             peopleArr.forEach((item, i) => {
-//                 // console.log(item);
-//                 let pic_str =
-//                     `<div class="pj-item">
-//                 <img id="image-1${item.id}" src="../img/project_img/project${item.id}.jpg" alt="">
-//             </div>`
-
-//                 pj_content_el.insertAdjacentHTML("beforeend", pic_str);
-//             })
-//         }else {
-//             displayImg();
-//         }
-//     });
-// };
 
 
 function btn_filter(btn,img_type) {
