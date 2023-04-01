@@ -142,7 +142,7 @@ header {
 
 
 .index-container-black {
-    margin-top: 6%;
+    /* margin-top: 6%; */
 }
 
 .box-wrap {
@@ -154,7 +154,7 @@ header {
 
 .black-box1 {
     width: 50%;
-    height: 100vh;  
+    height: 110vh;  
     background-color: black;
     color: white;
     font-size: 16px;
@@ -166,7 +166,7 @@ header {
 
 .black-box2 {
     width: 50%;
-    height: 100vh;  
+    height: 110vh;  
     background-color: black;
     color: white;
     font-size: 16px;

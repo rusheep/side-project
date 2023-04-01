@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // 監聽網頁滾動事件
     window.addEventListener('scroll', function() {
     // 當網頁頂部觸碰到指定div時
-    if (window.pageYOffset >= divTop1 + (document.getElementById('myDiv1').offsetHeight * 0.15)) {
+    if (window.pageYOffset >= divTop1 + (document.getElementById('myDiv1').offsetHeight * 0.1)) {
 
         // 計算div往左移出的距離
         var distance = window.pageYOffset - divTop1;
