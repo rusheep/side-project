@@ -20,7 +20,7 @@ let myObject = [{ id: '01', type: '人物' },
 { id: '18', type: '場景' },
 { id: '19', type: '人物' },
 { id: '20', type: '人物' },
-{ id: '21', type: '人物' },
+{ id: '21', type: '立繪' },
 { id: '22', type: '立繪' },
 { id: '23', type: '人物' },
 { id: '24', type: '立繪' },
@@ -48,18 +48,22 @@ function displayImg() {
         
         let pic_str =
             `<div class="pj-item">
-            <a href = "../img/project_img/${imageUrl}">
-                <img id="image-1${imageId}" src="../img/project_img/${imageUrl}" alt="">
-            </a>
-        </div>`
+                <a href = "../img/project_img/${imageUrl}" class="lightbox" >
+                    <img id="image-1${imageId}" src="../img/project_img/${imageUrl}" alt="">
+                </a>
+            </div>`
         
         console.log(pic_str);
         pj_content_el.insertAdjacentHTML("beforeend", pic_str); 
-        // setTimeout(() => {
-        //     console.log(pic_str);
-        //     pj_content_el.insertAdjacentHTML('beforeend', pic_str);
-        //   }, (i + 1) * 100); // 延遲載入時間為 (i + 1) 秒
     })
+
+    $(".lightbox").off("click").on("click", function(e) {
+        e.preventDefault();
+        let img_url = $(this).attr("href");
+        console.log(img_url);
+        $(".lightbox-image").attr("src",img_url);
+        $(".lightbox-overlay").fadeIn(500);
+    });
 };
 
 
@@ -89,11 +93,22 @@ function btn_filter(btn,img_type) {
                     // console.log(item);
                     let pic_str =
                         `<div class="pj-item">
-                    <img id="image-1${item.id}" src="../img/project_img/project${item.id}.jpg" alt="">
-                </div>`
+                            <a href ="../img/project_img/project${item.id}.jpg" class="lightbox">
+                                <img id="image-${item.id}" src="../img/project_img/project${item.id}.jpg" alt="">
+                            </a>
+                        </div>`
     
                     pj_content_el.insertAdjacentHTML("beforeend", pic_str);
                 })
+
+                $(".lightbox").off("click").on("click", function(e) {
+                    e.preventDefault();
+                    let img_url = $(this).attr("href");
+                    console.log(img_url);
+                    $(".lightbox-image").attr("src",img_url);
+                    $(".lightbox-overlay").fadeIn(500);
+                });
+
         }
     });
 };
@@ -114,3 +129,21 @@ btn_filter(btn3,"立繪");
 
 const btn4 = document.querySelector('.btn4');
 btn_filter(btn4,"頭貼");
+
+
+// ========================================================
+
+$(window).on("load",function(){
+    $(".lightbox").click(function(e){
+        e.preventDefault();
+        let img_url = $(this).attr("href");
+        console.log(img_url);
+
+        $(".lightbox-image").attr("src",img_url);
+        $(".lightbox-overlay").fadeIn(500);
+    })
+
+    $(".lightbox-close").click(function(){
+        $(".lightbox-overlay").fadeOut();
+    })
+});
