@@ -6,5 +6,5 @@ window.addEventListener("load", function(){
     // },10000)
     setTimeout(function(){
         document.getElementsByClassName("loading_block")[0].remove();
-    }, 800);
+    }, 500);
 });

@@ -477,7 +477,7 @@ footer {
         
         position: absolute;
         left: 50%;
-        top: 50%;
+        top: 60%;
         transform: translate(-50%, -50%);
     }
     span.dot{
@@ -505,6 +505,9 @@ footer {
     }
     
     div.loading_block{
+        display: flex;
+        justify-content: center;
+        align-items: center;
         position: fixed;
         left: 0;
         top: 0;
@@ -512,4 +515,9 @@ footer {
         height: 100%;
         background-color:#b3c3ec;
         z-index: 999;
+    }
+
+    .loading_block img {
+        width: 600px;
+        margin-bottom: 10%;
     }

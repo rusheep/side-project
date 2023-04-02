@@ -3,6 +3,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    background-attachment: fixed;
 }
 
 .navbar a {
@@ -22,58 +23,77 @@ body {
     color: #ececec;
 }
 
+
 .faq-wrap {
 
     margin: 0 auto;
-    width: 1200px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    /* border: 1px solid black; */
+    width: 70%;
     margin-top: 5%;
     margin-bottom: 5%;
     padding: 5%;
     position: relative;
     border-radius: 15px;
-    /* background-color: rgb(217, 217, 217 ,0.4); */
 }
 
-.question {
-    border-radius: 15px;
-    width: 400px;
-    height: 150px;
+
+.faq-item {
+    margin-bottom: 10px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.faq-header {
+    padding: 15px 20px;
+    margin: 0;
+    cursor: pointer;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    position: absolute;
-    left: 210px;
-    top: 0;
-    background-color:rgb(240, 202, 199, 0.6);
+    background-color: rgba(24, 63, 169,0.4); 
+    backdrop-filter: blur(3px);
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: wheat;
+    transition: background-color 0.3s ease;
 }
 
-.question p {
-    width: 80%;
-    text-align: left;
+.faq-header:hover {
+    background-color: rgb(179, 195, 236,0.8);
+    color: white;
+}
+
+.faq-header::after {
+    content: '\002B';
     font-size: 24px;
-    font-weight: 600;
-    /* color: #ececec; */
+    font-weight: bold;
+    color: whitesmoke;
+    transition: transform 0.3s ease;
 }
 
-.answer {
-    border-radius: 15px;
-    width: 600px;
-    height: 150px;
-    padding: 5%;
-    display: flex;
-    justify-content: center;
-    background-color: rgb(179, 195, 236, 0.6);
+.faq-header.active::after {
+    color: #fff;
+    transform: rotate(45deg);
+}
+.faq-header.active{
+    background-color: rgb(179, 195, 236,0.8);
+    color: white;
+}
+.faq-content {
+    padding: 20px;
+    background-color: rgba(24, 63, 169,0.4); 
+    border: 2px solid rgb(24, 63, 169);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-size: 16px;
+    color: whitesmoke;
+    line-height: 1.5;
+    display: none;
 }
 
-.answer p {
-    width: 600px;
-    text-align: left;
-    font-size: 24px;
-    font-weight: 600;
-    /* color: #ececec; */
+.faq-item.active .accordion-content {
+    display: block;
+    
 }
-

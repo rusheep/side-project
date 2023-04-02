@@ -10,9 +10,10 @@ p {
 
 body {
     background-image: url(../img/bg_img/bg03.jpg);
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-size: cover;
-    background-position: center center;
+    background-position: center 50px;
+    background-attachment: fixed;
 }
 
 .navbar a {
