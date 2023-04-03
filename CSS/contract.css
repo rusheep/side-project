@@ -101,7 +101,7 @@ input:focus~label,
 input:valid~label,
 textarea:focus~label,
 textarea:valid~label {
-    top: -35px;
+    top: -40px;
     color: rgb(217, 217, 217);
 }
 

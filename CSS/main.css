@@ -179,9 +179,9 @@ footer {
 }
 
 .footer-bar li a:hover {
-    border-bottom: 1px solid #b3c3ec;
+    /* border-bottom: 1px solid #b3c3ec; */
     color: #b3c3ec;
-    transition: 1s;
+    /* transition: 1s; */
 }
 
 

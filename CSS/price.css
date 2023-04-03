@@ -2,13 +2,17 @@ p {
     font-size: 16px;
 }
 
-.wrap {
+body {
     width: 100%;
     background-image: url(../img/bg_img/bg02.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center 0px;
+    background-position: center -120px;
     background-attachment: fixed;
+}
+
+.wrap {
+    
 }
 
 .navbar a {
@@ -18,11 +22,12 @@ p {
 .price-container {
     width: 70%;
     margin: 0 auto;
+    margin-top: 10%;
 }
 
 .title {
     text-align: center;
-    /* margin-top: 5%; */
+    margin-top: 5%;
     margin-bottom: 5%;
     color: rgb(217, 217, 217);
 }
@@ -38,25 +43,29 @@ p {
     justify-content: space-around;
     line-height: 1.6;
     flex-grow: 1;
-    background-color: rgb(217, 217, 217 ,0.4);
-    backdrop-filter: blur(8px);
+    background-color: rgba(24, 63, 169,0.2); 
+    backdrop-filter: blur(4px);
     border-radius: 15px;
 }
 
 .price-content h5 {
     font-weight: bolder;
+    color: whitesmoke;
 }
 
 .price-content span {
     color: rgb(235, 57, 57);
+    font-weight: 600;
 }
 
 .price-content-left {
-    width: 50%;
+    width: 45%;
+    color: whitesmoke;
 }
 
 .left-section1 {
     margin-bottom: 20px;
+    
 }
 
 .left-section2 {
@@ -66,7 +75,8 @@ p {
 
 
 .price-content-right {
-    width: 50%;
+    width: 45%;
+    color: whitesmoke;
 }
 
 .price-content-right ul li {
@@ -96,10 +106,11 @@ p {
 
 .price-item {
     margin: 5%;
-    background-color: rgb(217, 217, 217 ,0.4);
-    backdrop-filter: blur(8px);
+    background-color: rgba(24, 63, 169,0.2); 
+    backdrop-filter: blur(4px);
     border-radius: 15px;
     padding: 20px;
+    color: whitesmoke;
 }
 
 .price-item p {
@@ -114,7 +125,7 @@ p {
 }
 
 .price-item h4 {
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid whitesmoke;
     margin-bottom: 20px;
     margin-top: 20px;
     text-align: center;
