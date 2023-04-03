@@ -138,3 +138,12 @@ body {
     background-size: cover;
     background-position: -60px 0;
 }
+
+.price-item:nth-child(2) .img-box {
+    width: 250px;
+    height: 250px;
+    background-image: url(../img/project_img/project07.jpg);
+    background-size: cover;
+    /* background-position: -60px 0; */
+    background-repeat: no-repeat;
+}

@@ -16,9 +16,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
         integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="JavaScript/app.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -43,7 +41,7 @@
             <h2 class="title">
                 委託報價
             </h2>
-            <div class="price-content">
+            <div class="price-content" data-aos="zoom-in-up">
                 <div class="price-content-left">
                     <h5>頭貼</h5>
                     <p class="left-section1">
@@ -104,7 +102,7 @@
 
                 <div class="price-item">
                     <div class="img-box"></div>
-                    <h4>單人頭貼</h4>
+                    <h4>多人頭貼</h4>
                     <p><span>價格</span>NT2000 UP</p>
                     <p>需背景、吉祥物等會額外加價。</p>
                 </div>
@@ -146,4 +144,13 @@
 </body>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="../JavaScript/loading.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+    AOS.init({
+        duration: 2000, 
+    });
+
+
+</script>
 </html>

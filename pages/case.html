@@ -15,8 +15,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
         integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-    <script src="../JavaScript/app.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -44,7 +43,7 @@
             <h2 class="title">Commission</h2>
 
             <ul class="case-card-wrap">
-                <li class="case-card card-item1">
+                <li class="case-card card-item1" data-aos="fade-left">
                     <div class="case-card-content">
                         <h3>人物</h3>
                         <p>接受含人物之單人插圖/多人插圖/宣傳圖等項目</p>
@@ -54,7 +53,7 @@
                     </div>
                 </li>
 
-                <li class="case-card card-item2">
+                <li class="case-card card-item2" data-aos="fade-right">
                     <div class="case-card-content">
                         <h3>背景</h3>
                         <p>接受不含人物支純場景/風景/背景插畫等項目</p>
@@ -64,8 +63,7 @@
                     </div>
                 </li>
 
-                <li class="case-card card-item3">
-                    
+                <li class="case-card card-item3" data-aos="fade-left">
                     <div class="case-card-content">
                         <h3>角色立繪</h3>
                         <p>接受原創/二創人物大頭貼繪製、角色設計</p>
@@ -75,7 +73,7 @@
                     </div>
                 </li>
 
-                <li class="case-card card-item4">
+                <li class="case-card card-item4" data-aos="fade-right">
                     <div class="case-card-content">
                         <h3>頭貼</h3>
                         <p>接受原創/二創角色立繪，僅畫至肩膀或胸以上</p>
@@ -124,4 +122,12 @@
 </body>
 <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 <script src="../JavaScript/loading.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 1500, 
+    });
+
+
+</script>
 </html>
