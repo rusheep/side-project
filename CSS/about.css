@@ -57,8 +57,9 @@ body {
     width: 400px;
     height: 400px;
     border-radius: 50%;
-    background-image: url(../img/about_img/about1.jpg);
-    background-position: 780px 0;
+    background-image: url(../img/project_img/project29.jpg);
+    background-size: cover;
+    background-position: 800px 0;
     margin-bottom: 10%;
 }
 

@@ -25,6 +25,14 @@ let myObject = [{ id: '01', type: '人物' },
 { id: '23', type: '人物' },
 { id: '24', type: '立繪' },
 { id: '25', type: '頭貼' },
+{ id: '26', type: '立繪' },
+{ id: '27', type: '場景' },
+{ id: '28', type: '頭貼' },
+{ id: '29', type: '頭貼' },
+{ id: '30', type: '頭貼' },
+{ id: '31', type: '頭貼' },
+{ id: '32', type: '人物' },
+{ id: '33', type: '頭貼' }
 ];
 
 // console.log(myObject[0].id);
