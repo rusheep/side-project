@@ -10,9 +10,9 @@ p {
 
 body {
     background-image: url(../img/bg_img/bg03.jpg);
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     background-size: cover;
-    background-position: center 50px;
+    background-position: center -50px;
     background-attachment: fixed;
 }
 
@@ -117,12 +117,24 @@ body {
 
 @media screen and (max-width:414px) {
 
+    body {
+        background-position: center center;
+    }
+
+    .wrap {
+        width: auto;
+    }
+
     .case-container {
         width: auto;
     }
 
     .title {
         margin-top: 30%;
+    }
+
+    .case-card-wrap {
+        width: auto;
     }
 
     .case-card {
