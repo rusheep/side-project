@@ -242,6 +242,7 @@ header {
     }
 
     .banner-wrap img:nth-child(1) {
+        width: 414px;
         content: url("../img/bg_img/index_rwd.png");
     }
 
