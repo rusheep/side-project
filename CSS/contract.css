@@ -114,3 +114,14 @@ textarea:valid~label {
 .contact-row .input-group {
     flex-basis: 48%;
 }
+
+
+/* ======================contact rwd============================== */
+
+
+@media screen and (max-width:414px) {
+
+    form {
+        width: 80%;
+    }
+}

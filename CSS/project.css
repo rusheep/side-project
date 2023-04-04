@@ -116,3 +116,12 @@ body {
 .lightbox {
     width: 1200px;
 }
+
+
+
+/* ====================project rwd======================== */
+
+@media screen and (max-width:414px) {
+
+
+}

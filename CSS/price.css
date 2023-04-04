@@ -147,3 +147,11 @@ body {
     /* background-position: -60px 0; */
     background-repeat: no-repeat;
 }
+
+
+/* ============price rwd============= */
+
+@media screen and (max-width:414px) {
+
+    
+}

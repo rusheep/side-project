@@ -111,3 +111,21 @@ body {
     background-size: cover;
     height: 500px;
 }
+
+
+/* ===================case rwd========================== */
+
+@media screen and (max-width:414px) {
+
+    .case-container {
+        width: auto;
+    }
+
+    .title {
+        margin-top: 30%;
+    }
+
+    .case-card {
+        /* background-repeat: no-repeat; */
+    }
+}

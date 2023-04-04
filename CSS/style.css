@@ -241,5 +241,8 @@ header {
         height: 100vh;
     }
 
+    .banner-wrap img:nth-child(1) {
+        content: url("../img/bg_img/index_rwd.png");
+    }
 
 }
