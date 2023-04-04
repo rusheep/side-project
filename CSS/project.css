@@ -123,6 +123,10 @@ body {
 
 @media screen and (max-width:414px) {
 
+    body {
+        background-repeat: repeat;
+    }
+
     .title {
         margin-top: 30%;
     }

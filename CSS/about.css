@@ -5,7 +5,7 @@ header {
 }
 
 body {
-    background-image: url(../img/bg_img/bg06.jpg);
+    background-image: url(../img/project_img/project30.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
@@ -20,6 +20,7 @@ body {
     text-align: center;
     margin-top: 5%;
     margin-bottom: 5%;
+    color: whitesmoke;
 }
 
 .about-container {
@@ -98,6 +99,7 @@ body {
 /* ================================================ */
 
 @media screen and (max-width:414px) {
+
 
     .title {
         margin-top: 30%;
