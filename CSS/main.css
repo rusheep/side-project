@@ -644,4 +644,19 @@ div.loading_block {
     .btn {
         width: auto;
     }
+
+    /* ====================footer====================================== */
+    footer {
+        
+    }
+
+    .footer-wrap {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-btn-bar a {
+        font-size: 16px;
+    }
 }

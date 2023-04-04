@@ -93,3 +93,42 @@ body {
     width: 200px;
     margin: 5% 0;
 }
+
+
+/* ================================================ */
+
+@media screen and (max-width:414px) {
+
+    .title {
+        margin-top: 30%;
+    }
+
+    .about-container {
+        width: 100%;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .article-wrap {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .photo {
+        width: 200px;
+        height: 200px;
+    }
+
+    .article-section p {
+        width: auto;
+        font-size: 16px;
+    }
+
+    .about-btn li {
+        margin: 5% 5%;
+    }
+
+}
