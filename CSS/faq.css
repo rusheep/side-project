@@ -103,5 +103,14 @@ body {
 
 @media screen and (max-width:414px) {
 
+    .title {
+        margin-top: 30%;
+    }
+
+    .faq-content p {
+        font-size: 14px;
+        letter-spacing: 1.5;
+    }
+    
     
 }

@@ -153,5 +153,35 @@ body {
 
 @media screen and (max-width:414px) {
 
-    
+    body {
+        background-position: center center;
+    }
+
+    .title {
+        margin-top: 35%;
+    }
+
+    .price-container {
+        width: auto;
+    }
+
+    .price-content {
+        flex-direction: column;
+    }
+
+    .price-content-left {
+        width: auto;
+        padding-bottom: 30px;
+        margin-bottom: 10px;
+        border-bottom: 1px solid whitesmoke;
+    }
+
+    .price-content-right {
+        width: auto;
+    }
+
+
+    .price-item-wrap {
+        flex-direction: column;
+    }
 }

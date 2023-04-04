@@ -542,6 +542,11 @@ div.loading_block {
 
 
 @media screen and (max-width:414px) {
+
+    h2 {
+        font-size: 36px;
+    }
+
     body {
 
     }
