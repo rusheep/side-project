@@ -649,6 +649,7 @@ div.loading_block {
 
     .btn {
         width: auto;
+        border-radius: 0;
     }
 
     /* ====================footer====================================== */

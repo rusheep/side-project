@@ -123,5 +123,30 @@ body {
 
 @media screen and (max-width:414px) {
 
+    .title {
+        margin-top: 30%;
+    }
 
+    .project-container{
+        width: auto;
+    }
+
+    .pj-content {
+        column-count:2;
+    }
+
+    .pj-item {
+        width: 190px;
+    }
+
+    /* ================overlay======================== */
+
+    .lightbox-overlay {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .lightbox-image {
+        width: 100vw;
+    }
 }
