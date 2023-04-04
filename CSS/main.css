@@ -547,8 +547,14 @@ div.loading_block {
     }
 
     .logo {
+        /* content:url("../img/home_img/logo_white.png"); */
         width: 25%;
+        top: 2vh;
         z-index: 999;
+    }
+
+    .logo-on {
+        content:url("../img/home_img/logo_white.png");
     }
 
     .hamburger{
@@ -556,7 +562,7 @@ div.loading_block {
         position: absolute;
         cursor: pointer;
         right: 5%;
-        top: 50%;
+        top: 5vh;
         transform: translate(-5%, -50%);
         z-index: 999;
         transition: all 0.7s ease;

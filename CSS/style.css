@@ -238,12 +238,43 @@ header {
 
     .banner-wrap img {
         width: auto;
-        height: 100vh;
+        /* height: 100vh; */
     }
 
     .banner-wrap img:nth-child(1) {
         width: 414px;
         content: url("../img/bg_img/index_rwd.png");
+    }
+
+    .black-box1 {
+        font-size: 14px;
+    }
+
+    .black-box2 {
+        font-size: 14px;
+    }
+
+    .index-container-box {
+        margin-bottom: 60%;
+    }
+
+    .img-intro {
+        z-index: 100;
+        top: 120px;
+        right: 5px;
+    }
+
+    .img-intro img {
+        width: 200px;
+        position: absolute;
+        top: -185px;
+        right: 95px;
+    }
+
+    .img-intro h4 {
+        width: 150px;
+        padding: 5px;
+        font-size: 16px;
     }
 
 }
