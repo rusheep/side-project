@@ -278,6 +278,7 @@ footer {
     /* border: 2px solid #183FA9; */
     border-radius: 40px;
     z-index: 2;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, .4);
 }
 
 .btn0 {
@@ -654,7 +655,7 @@ div.loading_block {
 
     .btn {
         width: auto;
-        border-radius: 0;
+        border-radius: 0px;
     }
 
     /* ====================footer====================================== */

@@ -10,9 +10,9 @@ p {
 
 body {
     background-image: url(../img/bg_img/bg03.jpg);
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-size: cover;
-    background-position: center -50px;
+    background-position: center center;
     background-attachment: fixed;
 }
 
@@ -104,13 +104,13 @@ body {
     width: 150px;
 }
 
-.box {
+/* .box {
     width: 100%;
     background-image: url(../img/case_img/人物.jpg);
     background-position: center center;
     background-size: cover;
     height: 500px;
-}
+} */
 
 
 /* ===================case rwd========================== */
@@ -118,7 +118,11 @@ body {
 @media screen and (max-width:414px) {
 
     body {
-        background-position: center center;
+        /* background-position: center center; */
+    }
+
+    nav {
+        /* width: auto; */
     }
 
     .wrap {
@@ -131,13 +135,40 @@ body {
 
     .title {
         margin-top: 30%;
+        margin-bottom: 10%;
     }
 
     .case-card-wrap {
         width: auto;
+        margin-bottom: 20%;
+        overflow: hidden;
     }
 
     .case-card {
         /* background-repeat: no-repeat; */
+        width: auto;
+
+    }
+
+    .card-item3 {
+
+    }
+
+    .card-item4 {
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .case-card-content {
+        width: 80%;
+        padding: 0;
+    }
+
+    .case-card-content h3 {
+        font-size: 24px;
+    }
+
+    .case-card-content p {
+        font-size: 20px;
     }
 }
