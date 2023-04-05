@@ -248,10 +248,23 @@ header {
 
     .black-box1 {
         font-size: 14px;
+        background: linear-gradient(to bottom, 
+        white 0%,
+        #e6e6e6 10%,
+        #cccccc 20%,
+        #b3b3b3 30%,
+        #999999 40%,
+        #808080 50%,
+        #666666 60%,
+        #4d4d4d 70%,
+        #333333 80%,
+        #1a1a1a 90%,
+        black 100%);
     }
 
     .black-box2 {
         font-size: 14px;
+        background: linear-gradient(to bottom, white, black); 
     }
 
     .index-container-box {

@@ -103,6 +103,7 @@ body {
 
     .title {
         margin-top: 30%;
+        margin-bottom: 10%;
     }
 
     .about-container {
@@ -111,6 +112,8 @@ body {
 
     .about-content {
         flex-direction: column;
+        margin-bottom: 30%;
+        backdrop-filter: blur(4px);
     }
 
     .article-wrap {
@@ -124,9 +127,16 @@ body {
         height: 200px;
     }
 
+    .article-section {
+        width: auto;
+    }
+
     .article-section p {
         width: auto;
         font-size: 16px;
+        margin-bottom: 10%;
+        margin-top: 10%;
+        text-align: center;
     }
 
     .about-btn li {
