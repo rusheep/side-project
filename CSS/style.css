@@ -282,6 +282,7 @@ header {
 
     .index-container-box {
         margin-bottom: 40%;
+        margin-top: 40%;
     }
 
     .img-intro {
@@ -293,7 +294,7 @@ header {
     .img-intro img {
         width: 200px;
         position: absolute;
-        top: -185px;
+        top: -210px;
         right: 95px;
     }
 
