@@ -278,10 +278,11 @@ header {
     .black-box2 {
         font-size: 14px;
         background: linear-gradient(to bottom, white, black); 
+        margin-bottom: 20%;
     }
 
     .index-container-box {
-        margin-bottom: 40%;
+        margin-bottom: 55%;
     }
 
     .img-intro {

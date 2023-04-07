@@ -175,4 +175,9 @@ body {
     .lightbox-image {
         width: 100vw;
     }
+
+    /* ==================btn======================= */
+    .btn {
+        border-radius: 0px;
+    }
 }

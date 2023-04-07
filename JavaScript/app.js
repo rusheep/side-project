@@ -1,3 +1,15 @@
+// ===============================重新整理========================================
+
+window.addEventListener('load', function() {
+    // 滾動到網頁頂部
+    window.scrollTo(0, 0);
+});
+
+window.addEventListener('beforeunload', function() {
+    // 在網頁重新載入前觸發重新滾動到網頁頂部
+    window.scrollTo(0, 0);
+});
+
 
 // ===========================scroll=====================================
 
