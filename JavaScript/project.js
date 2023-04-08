@@ -32,7 +32,8 @@ let myObject = [{ id: '01', type: '人物' },
 { id: '30', type: '頭貼' },
 { id: '31', type: '頭貼' },
 { id: '32', type: '人物' },
-{ id: '33', type: '頭貼' }
+{ id: '33', type: '頭貼' },
+{ id: '34', type: '人物' },
 ];
 
 // console.log(myObject[0].id);
