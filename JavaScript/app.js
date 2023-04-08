@@ -3,6 +3,7 @@
 window.addEventListener('load', function() {
     // 滾動到網頁頂部
     window.scrollTo(0, 0);
+    
 });
 
 window.addEventListener('beforeunload', function() {

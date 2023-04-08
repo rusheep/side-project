@@ -70,6 +70,7 @@ header {
     width: 100%;
     position: relative;
     overflow: hidden;
+    background: linear-gradient(to right, #183fa9 0%, rgba(24, 63, 169, 0) 10%, rgba(24, 63, 169, 0) 50%, rgba(24, 63, 169, 0) 90%, #183fa9 100%);
 }
 
 .banner-wrap img {
