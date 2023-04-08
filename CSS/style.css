@@ -275,10 +275,21 @@ header {
         black 100%);
     }
 
+
     .black-box2 {
         font-size: 14px;
         background: linear-gradient(to bottom, white, black); 
         margin-bottom: 20%;
+    }
+
+    .black-box1 img {
+        content: url("../img/home_img/block_moble_1.png");
+        margin-right: 5px;
+    }
+
+    .black-box2 img {
+        content: url("../img/home_img/block_moble_2.png");
+        margin-left: 5px;
     }
 
     .index-container-box {
