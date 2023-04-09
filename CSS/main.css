@@ -156,7 +156,6 @@ nav {
 
 footer {
     width: 100%;
-    height: 230px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -176,17 +175,27 @@ footer {
 
 .footer-bar {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: start;
+    margin-top: 40px;
 }
 
 .footer-bar li {
-    margin: 20px;
+    line-height: 60px;
+}
+
+.footer-bar li a  {
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    color: #2B2B2B;
 }
 
 .footer-bar li a img {
-    width: 50px;
+    width: 60px;
 }
+
 
 .footer-bar li a:hover {
     color: #b3c3ec;
@@ -194,13 +203,31 @@ footer {
 
 
 .footer-btn-wrap {
+    margin-top: 5%;
     display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.footer-btn-wrap span {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.footer-btn-wrap span::after {
+    content: "";
+    display: block;
+    background-color: black;
+    width: 100%;
+    height: 3px
 }
 
 .footer-btn-bar {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: start;
 }
 
 .footer-btn-bar li {
@@ -208,20 +235,21 @@ footer {
     line-height: 60px;
     flex-grow: 1;
     padding: 0 10px;
-    border-top: 2px solid rgba(51, 51, 51, 0.1);
+    /* border-top: 2px solid rgba(51, 51, 51, 0.1);
     border-bottom: 2px solid rgba(51, 51, 51, 0.1);
-    border-right: 2px solid rgba(51, 51, 51, 0.1);
+    border-right: 2px solid rgba(51, 51, 51, 0.1); */
     position: relative;
 }
 
 .footer-btn-bar li:nth-child(1) {
-    border-left: 2px solid rgba(51, 51, 51, 0.1);
-    ;
+    /* border-left: 2px solid rgba(51, 51, 51, 0.1); */
 }
 
 
 .footer-btn-bar a {
-    color: rgb(245, 245, 245, 0.8);
+    /* color: rgb(245, 245, 245, 0.8); */
+    color: #2B2B2B;
+    font-weight: 600;
     display: block;
 }
 
@@ -250,10 +278,24 @@ footer {
     height: 100%;
 }
 
+.social-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 5%; */
+}
+
+.social-wrap span {
+    font-size: 24px;
+    font-weight: 600;
+}
+
 
 .copyright {
     text-align: center;
-    color: rgb(245, 245, 245, 0.8);
+    /* color: rgb(245, 245, 245, 0.8); */
+    color: #2B2B2B;
     font-size: 16px;
 }
 

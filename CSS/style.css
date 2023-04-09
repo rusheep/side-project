@@ -177,6 +177,7 @@ header {
     justify-content: flex-end;
     align-items: center;
     text-align: right;
+    /* clip-path: polygon(0% 0%, 100% 0%, 96% 23%, 100% 44%, 98% 73%, 100% 100%, 0 100%); */
 }
 
 .black-box2 {
@@ -190,6 +191,19 @@ header {
     align-items: center;
     text-align-last: left;
 }
+
+/* .black-box2::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -40px;
+    width: 50%;
+    height: 100%;
+    background-color: black;
+    clip-path: polygon(7% 0, 100% 0, 100% 100%, 15% 100%, 0 67%, 10% 48%, 0 20%);
+    z-index: -2;
+} */
 
 
 .index-container-box {
