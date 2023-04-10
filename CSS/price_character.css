@@ -38,6 +38,10 @@ body {
 
 
 @media screen and (max-width:414px) {
+    body {
+        width: 414px;
+    }
+
     body:before {
         content: ' ';
         position: fixed;
