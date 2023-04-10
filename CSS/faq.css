@@ -98,6 +98,29 @@ body {
     
 }
 
+/* =====================footer換色============================= */
+
+.footer-bar li a {
+    color: whitesmoke;
+}
+
+.footer-btn-wrap span {
+    color: whitesmoke;
+}
+
+.footer-btn-wrap span::after {
+    background-color: whitesmoke;
+}
+
+.footer-btn-bar a {
+    color: whitesmoke;
+}
+
+.copyright {
+    color: whitesmoke;
+}
+
+
 
 /* =======================faq rwd============================ */
 

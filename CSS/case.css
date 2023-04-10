@@ -32,6 +32,7 @@ body {
     text-align: center;
     margin-top: 5%;
     margin-bottom: 5%;
+    color: whitesmoke;
 }
 
 .case-card-wrap {
@@ -104,13 +105,28 @@ body {
     width: 150px;
 }
 
-/* .box {
-    width: 100%;
-    background-image: url(../img/case_img/人物.jpg);
-    background-position: center center;
-    background-size: cover;
-    height: 500px;
-} */
+/* =====================footer換色============================= */
+
+.footer-bar li a {
+    color: whitesmoke;
+}
+
+.footer-btn-wrap span {
+    color: whitesmoke;
+}
+
+.footer-btn-wrap span::after {
+    background-color: whitesmoke;
+}
+
+.footer-btn-bar a {
+    color: whitesmoke;
+}
+
+.copyright {
+    color: whitesmoke;
+}
+
 
 
 /* ===================case rwd========================== */

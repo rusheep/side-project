@@ -308,7 +308,11 @@ header {
     }
 
     .index-container-box {
-        margin-bottom: 55%;
+        margin-bottom: 55%; 
+    }
+
+    .index-container-box img {
+        width: 100vw;
     }
 
     .img-intro {
