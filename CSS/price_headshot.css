@@ -1,0 +1,47 @@
+@import url(price.css);
+
+body {
+    
+}
+
+.swiper {
+    width: 600px;
+    height: 500px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.swiper-slide {
+    /* width: 500px;
+    height: 500px; */
+    background-color: #fff;
+    background-size: cover;
+    background-position: center top;
+}
+
+.swiper-slide:nth-child(1) {
+    background-image: url(../img/project_img/project25.jpg);
+}
+
+.swiper-slide:nth-child(2) {
+    background-image: url(../img/project_img/project28.jpg);
+}
+
+.swiper-slide:nth-child(3) {
+    background-image: url(../img/project_img/project30.jpg);
+}
+
+.swiper-slide:nth-child(4) {
+    background-image: url(../img/project_img/project29.jpg);
+}
+
+
+
+
+@media screen and (max-width:414px) {
+
+    .swiper {
+        width: 300px;
+        height: 250px;
+    }
+}

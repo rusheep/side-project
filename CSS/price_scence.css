@@ -4,6 +4,37 @@ body {
     background-image: url(../img/project_img/project27.jpg);
 }
 
+.swiper {
+    width: 600px;
+    height: 500px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.swiper-slide {
+    /* width: 500px;
+    height: 500px; */
+    background-color: #fff;
+    background-size: cover;
+    background-position: center center;
+}
+
+.swiper-slide:nth-child(1) {
+    background-image: url(../img/project_img/project10.jpg);
+}
+
+.swiper-slide:nth-child(2) {
+    background-image: url(../img/project_img/project27.jpg);
+}
+
+.swiper-slide:nth-child(3) {
+    background-image: url(../img/project_img/project18.jpg);
+}
+
+.swiper-slide:nth-child(4) {
+    background-image: url(../img/project_img/project31.jpg);
+}
+
 
 @media screen and (max-width:414px) {
     body:before {
@@ -16,5 +47,10 @@ body {
         left: 0;
         background: url(../img/project_img/project27.jpg) center 0 no-repeat;
         background-size: cover;
+    }
+
+    .swiper {
+        width: 300px;
+        height: 250px;
     }
 }
