@@ -334,4 +334,28 @@ header {
         font-size: 16px;
     }
 
+    .img-into-item1 h4 {
+        position: absolute;
+        top: 130px;
+        right: 0;
+    }
+
+    .img-into-item2 h4 {
+        position: absolute;
+        top: 205px;
+        right: 0;
+    }
+
+    .img-into-item3 h4 {
+        position: absolute;
+        top: 205px;
+        right: 0;
+    }
+
+    .img-into-item4 h4 {
+        position: absolute;
+        top: 105px;
+        right: 0;
+    }
+
 }
