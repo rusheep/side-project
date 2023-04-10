@@ -117,6 +117,10 @@ body {
     width: 1200px;
 }
 
+.lightbox-intro {
+    color: whitesmoke;
+}
+
 /* =====================footer換色============================= */
 
 .footer-bar li a {

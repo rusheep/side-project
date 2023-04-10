@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../CSS/reset.css">
     <link rel="stylesheet" href="../CSS/main.css">
     <link rel="stylesheet" href="../CSS/price_character.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
@@ -42,6 +43,23 @@
                         <li><a href="./case.html">Case</a></li>
                     </ul>
             </nav>
+
+
+        <!-- Slider main container -->
+
+        <!-- <div class="swiper">
+            
+            <div class="swiper-wrapper">
+            
+            <div class="swiper-slide"><img src="../img/project_img/project06.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="../img/project_img/project27.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="../img/project_img/project31.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="../img/project_img/project28.jpg" alt=""></div>
+            </div>
+            
+            <div class="swiper-pagination"></div>
+        
+        </div> -->
 
         <!-- container開始 -->
         <div class="price-container">    
@@ -187,11 +205,21 @@
 <script src="../JavaScript/loading.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="../JavaScript/hamburger.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
 <script>
     AOS.init({
         duration: 2000, 
     });
+
+    const swiper = new Swiper('.swiper', {
+        effect: 'cube',
+        cubeEffect: {
+            slideShadows: false,
+        },
+    });
+// Now you can use all slider methods like
+swiper.slideNext();
 
 
 </script>

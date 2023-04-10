@@ -4,6 +4,17 @@ body {
     background-image: url(../img/project_img/project06.jpg);
 }
 
+.swiper {
+    width: 600px;
+    height: 300px;
+}
+
+.swiper-slide img {
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
 
 @media screen and (max-width:414px) {
     body:before {
