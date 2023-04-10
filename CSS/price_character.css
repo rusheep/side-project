@@ -9,6 +9,7 @@ body {
     height: 500px;
     margin-bottom: 5%;
     margin-top: 5%;
+    overflow: hidden !important;
 }
 
 .swiper-slide {
@@ -16,8 +17,7 @@ body {
     height: 500px; */
     background-color: #fff;
     background-size: cover;
-    background-position: center center;
-    overflow: hidden !important;
+    background-position: center top;
 }
 
 .swiper-slide:nth-child(1) {
