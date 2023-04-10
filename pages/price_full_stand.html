@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>薩雷納|關於委託</title>
+    <title>薩雷納|立繪</title>
     <link rel="stylesheet" href="../CSS/reset.css">
     <link rel="stylesheet" href="../CSS/main.css">
-    <link rel="stylesheet" href="../CSS/case.css">
+    <link rel="stylesheet" href="../CSS/price_full_stand.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
         integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -21,7 +22,6 @@
 <body>
     <div class="wrap">
         <header>
-            <!-- navbar開始 -->
             <nav>
                 <div class="navbar-wrap">
                     <a href="../index.html">
@@ -36,63 +36,87 @@
 
                     <ul class="navbar">
                         <li><a href="../index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="project.html">Project</a></li>
-                        <li><a href="contract.html">Contact</a></li>
-                        <li><a href="case.html">Case</a></li>
+                        <li><a href="./about.html">About</a></li>
+                        <li><a href="./project.html">Project</a></li>
+                        <li><a href="./contract.html">Contract</a></li>
+                        <li><a href="./case.html">Case</a></li>
+                    </ul>
+            </nav>
+
+        <!-- container開始 -->
+        <div class="price-container">    
+            <h2 class="title">
+                委託報價
+            </h2>
+            <div class="price-content" data-aos="zoom-in-up">
+                <div class="price-content-left">
+                    <h5>立繪</h5>
+                    <p class="left-section1">
+                        接受原創/二創人物大頭貼繪製，僅畫至肩膀以上或胸部以上。
+                    </p>
+                    <p class="left-section2">
+                        詢問報價時請附上以下資訊
+                    </p>
+                    <span>價目表價格僅供參考，依照需求不同價格會有浮動，請以實際報價為主</span>
+                    <ul class="left-section3">
+                        <li>1.您的暱稱</li>
+                        <li>2.委託張數、是否需要差分</li>
+                        <li>3.使用範圍(EX:社群平台宣傳)</li>
+                        <li>4.您的預算</li>
+                        <li>5.尺寸</li>
+                        <li>6.角色圖片(有多角度、三視圖佳)</li>
+                        <li>7.構圖內容(人物動作、背景構想、需要的物件等)</li>
+                        <li>8.最晚交件期限</li>
+                        <li>9.參考圖片</li>
                     </ul>
                 </div>
-            </nav>
-            <!-- navbar結束 -->
-        </header>
-        <!-- 這裡是內容 -->
-        <div class="case-container">
-            <h2 class="title">Commission</h2>
 
-            <ul class="case-card-wrap">
-                <li class="case-card card-item1" data-aos="fade-left">
-                    <div class="case-card-content">
-                        <h3>人物</h3>
-                        <p>接受含人物之單人插圖/多人插圖/宣傳圖等項目</p>
-                        <div class="case-btn">
-                            <a class="btn btn1" href="price_character.html">我要委託<span></span></a>
-                        </div>
-                    </div>
-                </li>
+                <div class="price-content-right">
+                    <ul class="top">
+                        <li>
+                            <p class="subtitle">推薦尺寸: 2000*2000px</p>
+                        </li>
+                        <li>
+                            <p class="subtitle">解析度: 3000DPI</p>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <p class="subtitle">預計交期</p>
+                            <p class="item">通常為排單後一個月內，有截稿日期請事先告知，急件價格另計</p>
+                        </li>
+                        <li>
+                            <p class="subtitle">修改次數</p>
+                            <p class="item">草稿3次，完稿3次 <br>超過修改次數，依照改動幅度非商用每次酌收稿費的5%~30%;商用1%~10%的修改費用非商用每次酌收稿費的5%~30%;商用1%~10%的修改費用，並且完稿皆不可大幅修改。 </p>
+                        </li>
+                        <li>
+                            <p class="subtitle">付款方式</p>
+                            <p class="item">討論完構圖確認沒問題後，需支付20%訂金才會開始排單，草圖確認沒問題後，需支付剩餘尾款才會開始上色(亦可一次付清)。</p>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+    
 
-                <li class="case-card card-item2" data-aos="fade-right">
-                    <div class="case-card-content">
-                        <h3>背景</h3>
-                        <p>接受不含人物支純場景/風景/背景插畫等項目</p>
-                        <div class="case-btn">
-                            <a class="btn btn1" href="price_scence.html">我要委託<span></span></a>
-                        </div>
-                    </div>
-                </li>
+            <div class="price-item-wrap">
+                <div class="price-item">
+                    <div class="img-box"></div>
+                    <h4>單人頭貼</h4>
+                    <p><span>價格</span>NT2000 UP</p>
+                    <p>需背景、吉祥物等會額外加價。</p>
+                </div>
 
-                <li class="case-card card-item3" data-aos="fade-left">
-                    <div class="case-card-content">
-                        <h3>角色立繪</h3>
-                        <p>接受原創/二創人物大頭貼繪製、角色設計</p>
-                        <div class="case-btn">
-                            <a class="btn btn1" href="price_full_stand.html">我要委託<span></span></a>
-                        </div>
-                    </div>
-                </li>
-
-                <li class="case-card card-item4" data-aos="fade-right">
-                    <div class="case-card-content">
-                        <h3>頭貼</h3>
-                        <p>接受原創/二創角色立繪，僅畫至肩膀或胸以上</p>
-                        <div class="case-btn">
-                            <a class="btn btn1" href="price_headshot.html">我要委託<span></span></a>
-                        </div>
-                    </div>
-                </li>
-            </ul>
+                <div class="price-item">
+                    <div class="img-box"></div>
+                    <h4>多人頭貼</h4>
+                    <p><span>價格</span>NT2000 UP</p>
+                    <p>需背景、吉祥物等會額外加價。</p>
+                </div>
+            </div>
 
         </div>
-        <!-- 這裡是內容結束 -->
+        <!-- container結束 -->
         <!-- 這裡是腳腳 -->
         <footer>
             <div class="footer-wrap">
@@ -159,13 +183,14 @@
         </p>
     </div>  
 </body>
-<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="../JavaScript/loading.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="../JavaScript/hamburger.js"></script>
+
 <script>
     AOS.init({
-        duration: 1500, 
+        duration: 2000, 
     });
 
 
