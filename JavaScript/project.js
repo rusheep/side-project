@@ -33,7 +33,7 @@ let myObject = [{ id: '01', type: '人物', date: '2022/02/02' },
 { id: '31', type: '頭貼', date: '2023/02/02' },
 { id: '32', type: '人物', date: '2020/10/30' },
 { id: '33', type: '頭貼', date: '2020/11/07' },
-{ id: '34', type: '人物', date: '????/??/??' },
+// { id: '34', type: '人物', date: '????/??/??' },
 ];
 
 // console.log(myObject[0].id);
