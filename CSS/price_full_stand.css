@@ -37,6 +37,9 @@ body {
 }
 
 
+:root {
+    --swiper-theme-color: #183fa9 !important;
+}
 
 
 @media screen and (max-width:414px) {

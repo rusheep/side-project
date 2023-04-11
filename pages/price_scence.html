@@ -110,9 +110,9 @@
                 <div class="swiper-slide"></div>
                 <div class="swiper-slide"></div>
                 </div>
-                
+
                 <div class="swiper-pagination"></div>
-            
+                
             </div>
     
 
@@ -213,8 +213,15 @@
 
     const swiper = new Swiper('.swiper', {
         effect: 'cube',
+        grabCursor: true,
         cubeEffect: {
-            slideShadows: false,
+            shadow: true,
+            // slideShadows: true,
+            // shadowOffset: 20,
+            // shadowScale: 0.94,
+        },
+        pagination: {
+            el: ".swiper-pagination",
         },
     });
     // Now you can use all slider methods like

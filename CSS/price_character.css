@@ -36,6 +36,10 @@ body {
     background-image: url(../img/project_img/project09.jpg);
 }
 
+:root {
+    --swiper-theme-color: #183fa9 !important;
+}
+
 
 @media screen and (max-width:414px) {
     body {
