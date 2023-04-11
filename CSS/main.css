@@ -591,6 +591,10 @@ div.loading_block {
         margin-top: 80%;
     }
 
+    .navbar-wrap {
+        background: linear-gradient(to bottom, #183fa9, rgba(24, 63, 169, 0));
+    }
+
     .open {
         clip-path: circle(1000px at 90% -10%);
         -webkit-clip-path: circle(1200px at 90% -10%);
