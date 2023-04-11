@@ -16,5 +16,4 @@ document.addEventListener('DOMContentLoaded', function() {
         //Hamburger Animation
         hamburger.classList.toggle("toggle");
     });
-
 });
